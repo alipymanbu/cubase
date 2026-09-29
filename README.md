@@ -1,33 +1,27 @@
 # cubase
-Possibly helpful things for Cubase
 
-### Audio Export Post Process Scripts for Cubase
+本仓库是「cubase」的安卓版本获取入口，附使用资料索引。
 
-Audio Export Post Process Scripts can run after the audio export is finished and can do pretty much anything with the resulting audio file.
+## 安装文件资源（夸克网盘）
 
-See [README.md](AudioExportProcessScripts/README.md).
+> **cubase 安装文件资源（夸克网盘）**：[https://pan.quark.cn/s/d460dabf8923](https://pan.quark.cn/s/d460dabf8923)
 
-### CubaseKeyCommands.html, CubaseGenericRemote.html
+## 官方项目
 
-HTML app that convert the Cubase XML Format of the Keycommands preference file or an exported Generic Remote file to a pretty HTML display that can be printed or saved.
+- 上游项目：[janminor/cubase](https://github.com/janminor/cubase)
 
-Do it online [here](https://janminor.github.io/cubase/index.html)
+## 更多资料
 
-Or Download the zip file (https://github.com/janminor/cubase/archive/master.zip) to your computer, unzip and open the resulting folder to have it locally availabe.
+- [下载与安装教程](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/cubase/%E4%B8%8B%E8%BD%BD%E4%B8%8E%E5%AE%89%E8%A3%85%E6%95%99%E7%A8%8B.md)
+- [几台手机能同时连一台电脑吗](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/cubase/%E5%87%A0%E5%8F%B0%E6%89%8B%E6%9C%BA%E8%83%BD%E5%90%8C%E6%97%B6%E8%BF%9E%E4%B8%80%E5%8F%B0%E7%94%B5%E8%84%91%E5%90%97.md)
+- [平板花屏和界面错乱怎么办](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/cubase/%E5%B9%B3%E6%9D%BF%E8%8A%B1%E5%B1%8F%E5%92%8C%E7%95%8C%E9%9D%A2%E9%94%99%E4%B9%B1%E6%80%8E%E4%B9%88%E5%8A%9E.md)
+- [快捷键命令页怎么自定义](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/cubase/%E5%BF%AB%E6%8D%B7%E9%94%AE%E5%91%BD%E4%BB%A4%E9%A1%B5%E6%80%8E%E4%B9%88%E8%87%AA%E5%AE%9A%E4%B9%89.md)
+- [手机连不上电脑怎么排查](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/cubase/%E6%89%8B%E6%9C%BA%E8%BF%9E%E4%B8%8D%E4%B8%8A%E7%94%B5%E8%84%91%E6%80%8E%E4%B9%88%E6%8E%92%E6%9F%A5.md)
+- [版本与系统要求说明](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/cubase/%E7%89%88%E6%9C%AC%E4%B8%8E%E7%B3%BB%E7%BB%9F%E8%A6%81%E6%B1%82%E8%AF%B4%E6%98%8E.md)
+- [耳机返送怎么设置](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/cubase/%E8%80%B3%E6%9C%BA%E8%BF%94%E9%80%81%E6%80%8E%E4%B9%88%E8%AE%BE%E7%BD%AE.md)
+- [项目页与走带控制怎么用](https://github.com/alipymanbu/Android/blob/master/%E5%AE%98%E7%BD%91%E7%89%88APP%E4%B8%8B%E8%BD%BD/cubase/%E9%A1%B9%E7%9B%AE%E9%A1%B5%E4%B8%8E%E8%B5%B0%E5%B8%A6%E6%8E%A7%E5%88%B6%E6%80%8E%E4%B9%88%E7%94%A8.md)
+- [全部软件目录](https://github.com/alipymanbu/Android/blob/master/%E5%85%A8%E9%83%A8%E8%BD%AF%E4%BB%B6%E7%9B%AE%E5%BD%95.md)
 
-You will need an xml file from Cubase as input.
+---
 
-For KeyCommands, the "Key Commands.xml" on Windows is in "%APPDATA%\Steinberg\Cubase 10.5_64"(or the respective version, e.g. "9.5_64").
-On a Mac, look in “/Users/[username]/Library/Preferences/[program name]/”.
-
-For the generic Remote, you first need to export the config you want from the "Generic Remote" Dialog in Cubase.
-
-Then just double-click in the HTML-File (CubaseKeyCommands.html or CubaseGenericRemote.html), open the XML File and go.
-
-The "GenericRemote" app is of course rather obsolete nowadays...
-
-### drummaps
-
-a few [drum maps](https://github.com/janminor/cubase/tree/master/drummaps) for Cubase.
-
-  
+> 本仓库由上游项目 fork 而来，原始说明见[上游仓库](https://github.com/janminor/cubase)。
